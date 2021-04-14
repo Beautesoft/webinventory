@@ -1,0 +1,326 @@
+1.appointment_remarks - table missing in loopback not use for Inventory
+2.approvedDOGRNList
+CREATE VIEW [dbo].[approvedDOGRNList]
+AS
+SELECT        TOP (100) PERCENT dbo.Stk_Movdoc_Hdr.DOC_NO AS GRNNo, dbo.Stk_Movdoc_Hdr.PO_ID, 
+dbo.DO.DO_NO AS doNumber, dbo.DO.ItemSite_Code AS siteCode, 
+dbo.DO.SUPP_Code AS supplierCode,dbo.DO.DO_REMK1 AS doRemark, dbo.DO.DO_DATE AS doDate, dbo.DO.DO_TIME AS doTime ,
+(CASE WHEN isnull(Stk_Movdoc_Hdr.PO_NO, '') = '' THEN DO.DO_STATUS ELSE 'Delivered' END)AS doStatus, 
+dbo.DO.DO_TTQTY AS doTotalQty, ISNULL(dbo.Stk_Movdoc_Hdr.DOC_QTY, 0) AS APPQTY, dbo.DO.DO_BPOSTCODE AS postCode, dbo.DO.DO_ATTN AS supplier
+FROM            dbo.DO 
+LEFT OUTER JOIN dbo.Stk_Movdoc_Hdr ON dbo.DO.DO_NO = dbo.Stk_Movdoc_Hdr.PO_NO
+WHERE        (dbo.DO.DO_STATUS='Approved')
+ORDER BY DOC_DATE DESC
+
+3.REQ - Table Missing
+CREATE TABLE [dbo].[REQ](
+	[REQ_ID] [int] IDENTITY(1,1) NOT NULL,
+	[REQ_NO] [nvarchar](20) NULL,
+	[ItemSite_Code] [nvarchar](10) NULL,
+	[SUPP_Code] [nvarchar](10) NULL,
+	[REQ_REF] [nvarchar](20) NULL,
+	[REQ_User] [nvarchar](10) NULL,
+	[REQ_DATE] [smalldatetime] NULL,
+	[REQ_STATUS] [nvarchar](40) NULL,
+	[REQ_TTQTY] [float] NULL,
+	[REQ_TTFOC] [float] NULL,
+	[REQ_TTDISC] [float] NULL,
+	[REQ_TTAMT] [float] NULL,
+	[REQ_ATTN] [nvarchar](30) NULL,
+	[REQ_REMK1] [nvarchar](50) NULL,
+	[REQ_REMK2] [nvarchar](50) NULL,
+	[REQ_BNAME] [nvarchar](40) NULL,
+	[REQ_BADDR1] [nvarchar](30) NULL,
+	[REQ_BADDR2] [nvarchar](30) NULL,
+	[REQ_BADDR3] [nvarchar](30) NULL,
+	[REQ_BPOSTCODE] [nvarchar](8) NULL,
+	[REQ_BSTATE] [nvarchar](15) NULL,
+	[REQ_BCITY] [nvarchar](10) NULL,
+	[REQ_BCOUNTRY] [nvarchar](10) NULL,
+	[REQ_DADDR1] [nvarchar](30) NULL,
+	[REQ_DADDR2] [nvarchar](30) NULL,
+	[REQ_DADDR3] [nvarchar](30) NULL,
+	[REQ_DPOSTCODE] [nvarchar](8) NULL,
+	[REQ_DSTATE] [nvarchar](15) NULL,
+	[REQ_DCITY] [nvarchar](15) NULL,
+	[REQ_DCOUNTRY] [nvarchar](20) NULL,
+	[REQ_CANCELQTY] [float] NULL,
+	[REQ_RECSTATUS] [nvarchar](10) NULL,
+	[REQ_RECEXPECT] [smalldatetime] NULL,
+	[REQ_RECTTL] [float] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[REQ_TIME] [smalldatetime] NULL,
+	[supplierName] [nvarchar](100) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[REQ] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+ALTER TABLE [dbo].[REQ] ADD  DEFAULT (getdate()) FOR [REQ_TIME]
+GO
+
+4.REQ_DETAIL - Table Missing
+CREATE TABLE [dbo].[REQ_DETAIL](
+	[REQ_ID] [int] IDENTITY(1,1) NOT NULL,
+	[ITEMSITE_CODE] [nvarchar](10) NULL,
+	[STATUS] [nvarchar](10) NULL,
+	[REQD_ITEMCODE] [nvarchar](20) NULL,
+	[REQD_ITEMDESC] [nvarchar](max) NULL,
+	[REQD_ITEMPRICE] [float] NULL,
+	[REQD_QTY] [int] NULL,
+	[REQ_APPQTY] [float] NULL,
+	[REQD_FOCQTY] [int] NULL,
+	[REQD_TTLQTY] [int] NULL,
+	[REQD_PRICE] [float] NULL,
+	[REQD_DISCPER] [float] NULL,
+	[REQD_DISCAMT] [float] NULL,
+	[REQD_AMT] [float] NULL,
+	[REQD_RECQTY] [int] NULL,
+	[REQD_CANCELQTY] [int] NULL,
+	[REQD_OUTQTY] [int] NULL,
+	[REQD_DATE] [smalldatetime] NULL,
+	[REQD_TIME] [smalldatetime] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[BrandCode] [nvarchar](15) NULL,
+	[BrandName] [nvarchar](30) NULL,
+	[LineNumber] [int] NOT NULL,
+	[REQ_No] [nvarchar](20) NULL,
+	[PostStatus] [bit] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT ('') FOR [BrandCode]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT ('') FOR [BrandName]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT ((0)) FOR [LineNumber]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT ('') FOR [REQ_No]
+GO
+
+ALTER TABLE [dbo].[REQ_DETAIL] ADD  DEFAULT ((0)) FOR [PostStatus]
+GO
+
+
+5.approvedDOList - View Missing
+CREATE VIEW [dbo].[approvedDOList]
+AS
+SELECT        TOP (100) PERCENT dbo.DO.DO_NO AS POno, dbo.REQ.REQ_ID, dbo.REQ.REQ_NO AS poNumber, dbo.REQ.ItemSite_Code AS siteCode, dbo.REQ.SUPP_Code AS supplierCode, dbo.REQ.REQ_REMK1 AS poRemark, 
+                         dbo.REQ.REQ_DATE AS poDate, dbo.REQ.REQ_TIME AS poTime, (CASE WHEN isnull(DO.PO_NO, '') = '' THEN REQ.REQ_status ELSE DO.DO_STATUS END) AS poStatus, dbo.REQ.REQ_TTQTY AS poTotalQty, 
+                         ISNULL(dbo.DO.DO_TTQTY, 0) AS APPQTY, dbo.REQ.REQ_BPOSTCODE AS postCode, dbo.REQ.REQ_ATTN AS supplier
+FROM            dbo.REQ LEFT OUTER JOIN
+                         dbo.DO ON dbo.REQ.REQ_NO = dbo.DO.PO_NO
+WHERE        (dbo.REQ.REQ_STATUS <> '')
+ORDER BY poDate DESC
+
+6.approvedGRNList
+CREATE VIEW [dbo].[approvedGRNList]
+AS
+SELECT        TOP (100) PERCENT dbo.Stk_Movdoc_Hdr.DOC_NO AS GRNNo, dbo.Stk_Movdoc_Hdr.PO_ID, 
+dbo.PO.PO_NO AS poNumber, dbo.PO.ItemSite_Code AS siteCode, 
+dbo.PO.SUPP_Code AS supplierCode,dbo.PO.PO_REMK1 AS poRemark, dbo.PO.PO_DATE AS poDate, dbo.PO.PO_TIME AS poTime ,
+(CASE WHEN isnull(Stk_Movdoc_Hdr.PO_NO, '') = '' THEN PO.PO_STATUS ELSE 'Approved' END)AS poStatus, 
+dbo.PO.PO_TTQTY AS poTotalQty, ISNULL(dbo.Stk_Movdoc_Hdr.DOC_QTY, 0) AS APPQTY, dbo.PO.PO_BPOSTCODE AS postCode, dbo.PO.PO_ATTN AS supplier
+FROM            dbo.PO 
+LEFT OUTER JOIN dbo.Stk_Movdoc_Hdr ON dbo.PO.PO_NO = dbo.Stk_Movdoc_Hdr.PO_NO
+WHERE        (dbo.PO.PO_STATUS <> '')
+ORDER BY DOC_DATE DESC
+
+7.PO_Approval
+CREATE TABLE [dbo].[PO_Approval](
+	[POAPP_ID] [int] IDENTITY(1,1) NOT NULL,
+	[PO_No] [nvarchar](200) NULL,
+	[GRN_No] [nvarchar](200) NULL,
+	[ITEMSITE_CODE] [nvarchar](10) NULL,
+	[STATUS] [nvarchar](10) NULL,
+	[POAPP_ITEMCODE] [nvarchar](20) NULL,
+	[POAPP_ITEMDESC] [nvarchar](max) NULL,
+	[POAPP_ITEMPRICE] [float] NULL,
+	[POAPP_QTY] [int] NULL,
+	[POAPP_TTLQTY] [int] NULL,
+	[POAPP_AMT] [float] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[Sync_Key] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[PO_Approval] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+8.approvedOutletPODetailList
+CREATE VIEW [dbo].[approvedOutletPODetailList]
+as
+select PO.PO_ID as id,PO_Approval.PO_NO,PO_detail.LineNumber,PO_detail.POD_ITEMCODE,PO_detail.POD_ITEMDESC,PO_detail.BrandName,PO_detail.POD_ITEMPRICE,PO_detail.POD_DISCPER,
+PO_detail.POD_DISCAMT,PO_detail.POD_QTY,PO_Approval.POAPP_QTY
+from PO
+inner join  PO_detail on PO.PO_NO=PO_detail.PO_No
+inner join item_supply on dbo.PO.SUPP_Code = dbo.item_supply.SPLY_CODE
+inner join PO_Approval on dbo.PO.PO_NO = dbo.PO_Approval.PO_NO and PO_detail.POD_ITEMCODE=PO_Approval.POAPP_ITEMCODE
+--order by PO_Approval.PO_NO,PO_detail.LineNumber
+
+9.approvedOutletPOList
+CREATE VIEW [dbo].[approvedOutletPOList]
+as
+select PO.po_ID as id,PO.po_no,PO.ItemSite_Code AS siteCode,PO.SUPP_Code AS supplierCode,PO.PO_REMK1 AS poRemark, PO.PO_DATE AS poDate,PO.PO_TIME AS poTime,'Approved' as poStatus,
+PO.PO_TTQTY AS poTotalQty,item_supply.SUPPLYDESC,sum(PO_Approval.POAPP_QTY) as APPQTY
+from PO
+inner join item_supply on dbo.PO.SUPP_Code = dbo.item_supply.SPLY_CODE
+inner join PO_Approval on dbo.PO.PO_NO = dbo.PO_Approval.PO_NO
+group by PO.po_ID ,PO.po_no,PO.ItemSite_Code,PO.SUPP_Code ,PO.PO_REMK1 , PO.PO_DATE ,PO.PO_TIME ,PO.PO_TTQTY ,item_supply.SUPPLYDESC
+
+10.PO
+
+CREATE TABLE [dbo].[PO](
+	[PO_ID] [int] IDENTITY(1,1) NOT NULL,
+	[PO_NO] [nvarchar](20) NULL,
+	[ItemSite_Code] [nvarchar](10) NULL,
+	[SUPP_Code] [nvarchar](10) NULL,
+	[PO_REF] [nvarchar](20) NULL,
+	[PO_User] [nvarchar](10) NULL,
+	[PO_DATE] [smalldatetime] NULL,
+	[PO_STATUS] [nvarchar](50) NULL,
+	[PO_TTQTY] [float] NULL,
+	[PO_TTFOC] [float] NULL,
+	[PO_TTDISC] [float] NULL,
+	[PO_TTAMT] [float] NULL,
+	[PO_ATTN] [nvarchar](30) NULL,
+	[PO_REMK1] [nvarchar](50) NULL,
+	[PO_REMK2] [nvarchar](50) NULL,
+	[PO_BNAME] [nvarchar](40) NULL,
+	[PO_BADDR1] [nvarchar](30) NULL,
+	[PO_BADDR2] [nvarchar](30) NULL,
+	[PO_BADDR3] [nvarchar](30) NULL,
+	[PO_BPOSTCODE] [nvarchar](8) NULL,
+	[PO_BSTATE] [nvarchar](15) NULL,
+	[PO_BCITY] [nvarchar](10) NULL,
+	[PO_BCOUNTRY] [nvarchar](10) NULL,
+	[PO_DADDR1] [nvarchar](30) NULL,
+	[PO_DADDR2] [nvarchar](30) NULL,
+	[PO_DADDR3] [nvarchar](30) NULL,
+	[PO_DPOSTCODE] [nvarchar](8) NULL,
+	[PO_DSTATE] [nvarchar](15) NULL,
+	[PO_DCITY] [nvarchar](15) NULL,
+	[PO_DCOUNTRY] [nvarchar](20) NULL,
+	[PO_CANCELQTY] [float] NULL,
+	[PO_RECSTATUS] [nvarchar](10) NULL,
+	[PO_RECEXPECT] [smalldatetime] NULL,
+	[PO_RECTTL] [float] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[PO_TIME] [smalldatetime] NULL,
+	[REQ_NO] [nvarchar](40) NULL,
+	[contactPerson] [nvarchar](200) NULL,
+	[terms] [nvarchar](200) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[PO] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+ALTER TABLE [dbo].[PO] ADD  DEFAULT (getdate()) FOR [PO_TIME]
+GO
+
+11.approvedPOList
+CREATE VIEW [dbo].[approvedPOList]
+AS
+SELECT        TOP (100) PERCENT dbo.PO.PO_NO AS POno, dbo.REQ.REQ_ID, dbo.REQ.REQ_NO AS poNumber, dbo.REQ.ItemSite_Code AS siteCode, dbo.REQ.SUPP_Code AS supplierCode, dbo.REQ.REQ_REMK1 AS poRemark, 
+                         dbo.REQ.REQ_DATE AS poDate, dbo.REQ.REQ_TIME AS poTime, (CASE WHEN isnull(PO.PO_NO, '') = '' THEN REQ.REQ_status ELSE PO.PO_STATUS END) AS poStatus, dbo.REQ.REQ_TTQTY AS poTotalQty, 
+                         ISNULL(dbo.PO.PO_TTQTY, 0) AS APPQTY, dbo.REQ.REQ_BPOSTCODE AS postCode, dbo.REQ.REQ_ATTN AS supplier
+FROM            dbo.REQ LEFT OUTER JOIN
+                         dbo.PO ON dbo.REQ.REQ_NO = dbo.PO.REQ_NO
+WHERE        (dbo.REQ.REQ_STATUS <> '')
+ORDER BY poDate DESC
+
+12.BusinessHrs - not use for Inventory - Loopback error table missing
+13.CommTypes - not use for Inventory - Loopback error "Invalid column name 'Comm_Type_ID'
+14.dept_SiteList - not use for inventory - loopback error     "message": "Invalid object name 'dbo.dept_SiteList'.",
+15.DODetailsList
+CREATE VIEW [dbo].[DODetailsList]
+AS
+SELECT DO_detail.DO_ID as poId,DO_detail.DO_No as doNo,DO_detail.LineNumber,DO_detail.DOD_ITEMCODE,DO_detail.DOD_ITEMDESC,DO_detail.DOD_ITEMPRICE,
+DO_detail.DOD_QTY,(DO_detail.DOD_ITEMPRICE * DO_detail.DOD_QTY) as DOD_PRICE,
+stock.Item_UOM as docUom,item_UOM.UOM_Desc as DOCUOMDesc,stock.item_Brand as itmBrand,item_BRAND.itm_desc as brandname,stock.Item_Range as itmRange,
+item_range.itm_desc as itmRangeDesc from   dbo.DO_detail
+LEFT OUTER JOIN dbo.stock  ON dbo.DO_detail.DOD_ITEMCODE = dbo.stock.item_code
+LEFT OUTER JOIN dbo.item_UOM  ON dbo.item_UOM.UOM_Code = dbo.stock.Item_UOM
+LEFT OUTER JOIN dbo.item_BRAND  ON dbo.item_BRAND.itm_Code = dbo.stock.item_Brand
+LEFT OUTER JOIN dbo.item_range  ON dbo.item_range.itm_Code = dbo.stock.Item_Range
+
+16. ItemComponents - not use for invenntoey - loopback error     "message": "Invalid column name 'id'.",
+17.Item_Rating - not use for invenory -table missing 
+18.itemUsageList - not use for inventory - Loopback error     "message": "Invalid object name 'dbo.itemUsageList'.",
+19.PayGroups - api name - not use for inventory - Loopback error - invalid column name 
+20.POAppPrintList
+CREATE VIEW [dbo].[POAppPrintList]
+AS
+select '' as id,stk_movDoc_hdr.PO_NO,stk_movDoc_hdr.DOC_NO as GRN_NO,convert(varchar,stk_movDoc_hdr.DOC_DATE,103) as DOC_DATE,DOC_REF1,stk_movDoc_hdr.SUPPLY_NO,Item_Supply.SUPPLYDESC,
+stk_movDoc_hdr.DOC_ATTN,stk_movDoc_hdr.DOC_REMK1,stk_movDoc_dtl.DOC_LINENO,stk_movDoc_dtl.ITEMCODE,stk_movDoc_dtl.ITEMDESC,stk_movDoc_dtl.DOC_QTY,stk_movDoc_dtl.itmBrandDesc,
+item_sitelist.ItemSite_Desc as ToSite,sitelist.ItemSite_Desc as FromSite
+from stk_movDoc_hdr
+inner join stk_movDoc_dtl on stk_movDoc_hdr.DOC_NO=stk_movDoc_dtl.DOC_NO
+inner join Item_Supply on stk_movDoc_hdr.SUPPLY_NO=Item_Supply.SPLY_CODE
+inner join item_sitelist on item_sitelist.itemSite_code=stk_movDoc_hdr.STORE_NO
+inner join item_sitelist sitelist on sitelist.itemSite_code like '%HQ%'
+where isnull(stk_movDoc_hdr.po_no,'' )<>''
+
+21.PODetailsList
+CREATE VIEW [dbo].[PODetailsList]
+AS
+SELECT PO_detail.PO_ID as poId,PO_detail.PO_No as poNo,PO_detail.LineNumber,PO_detail.POD_ITEMCODE,PO_detail.POD_ITEMDESC,PO_detail.POD_ITEMPRICE,
+PO_detail.POD_QTY,(PO_detail.POD_ITEMPRICE * PO_detail.POD_QTY) as POD_PRICE,
+stock.Item_UOM as docUom,item_UOM.UOM_Desc as DOCUOMDesc,stock.item_Brand as itmBrand,item_BRAND.itm_desc as brandname,stock.Item_Range as itmRange,
+item_range.itm_desc as itmRangeDesc from   dbo.PO_detail
+LEFT OUTER JOIN dbo.stock  ON dbo.PO_detail.POD_ITEMCODE = dbo.stock.item_code
+LEFT OUTER JOIN dbo.item_UOM  ON dbo.item_UOM.UOM_Code = dbo.stock.Item_UOM
+LEFT OUTER JOIN dbo.item_BRAND  ON dbo.item_BRAND.itm_Code = dbo.stock.item_Brand
+LEFT OUTER JOIN dbo.item_range  ON dbo.item_range.itm_Code = dbo.stock.Item_Range
+
+22.POPrintList
+CREATE VIEW [dbo].[POPrintList]
+AS
+select po.PO_NO,po.SUPP_Code,Item_Supply.SUPPLYDESC,convert(varchar,PO.po_date,103) as po_date,PO.contactPerson,po.terms,
+PO_DETAIL.POD_QTY,stock.Item_UOM,Stock.item_code,Stock.Item_Name,PO_DETAIL.POD_PRICE,(PO_DETAIL.POD_QTY * PO_DETAIL.POD_PRICE) as TOTAL
+from po 
+inner join PO_DETAIL on po.PO_NO=PO_DETAIL.PO_No
+inner join stock on stock.item_code=PO_DETAIL.POD_ITEMCODE
+inner join Item_Supply on po.SUPP_Code=Item_Supply.SPLY_CODE
+
+23.rangelist - not use for inventory -  loopback error     "message": "Invalid object name 'dbo.rangelist'.",
+24.SkinAnalyses(Api Name)- Not use for Inventory - loopback error     "message": "Invalid column name 'Sync_GUID'.",Sync_LstUpd,Sync_ClientIndex,
+25.Stock -     "message": "Invalid column name 'printUom'.",MOQQty,printDesc,printLineNo,
+26. stockdetails - not use for inventory - loopback error     "message": "Invalid object name 'dbo.stockdetails'.",
+27.suggestion - not use for inventory - loopback error     "message": "Invalid object name 'dbo.suggestion'.",
+28.Tasktype - not use for inventory - loopback error     "message": "Invalid object name 'dbo.Tasktype'.",
+29.tblStockBalanceDay
+CREATE TABLE [dbo].[tblStockBalanceDay](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[SA_DATE] [datetime] NULL,
+	[ITEM_CODE] [nvarchar](40) NULL,
+	[UOM] [nvarchar](40) NULL,
+	[ItemSite_Code] [nvarchar](40) NULL,
+	[ONHAND_QTY] [float] NULL,
+	[Time] [datetime] NULL
+) ON [PRIMARY]
+
+
+30.Treatmentfaces - not use for Invenoty - Loopback error is     "message": "Invalid column name 'Sync_GUID'.",Sync_LstUpd,Sync_ClientIndex,
+31.VoucherRecords(Api name )- not use for inventory - loopback error is     "message": "Invalid column name 'Sync_GUID'.",
+

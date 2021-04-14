@@ -1,0 +1,600 @@
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.xml
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CoreCompileInputs.cache
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.AccessControl.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Claims.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+F:\Soha Source Code\File From Meeran\Sequoia_BE on 21.06.2019\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.AccessControl.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Claims.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.xml
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+F:\Seq BE\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Seq BE\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+F:\Seq BE\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CoreCompileInputs.cache
+F:\Seq BE\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+F:\Seq BE\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+F:\Seq BE\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.AccessControl.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Claims.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.xml
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CoreCompileInputs.cache
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+F:\Soha Source Code\Combined File BE&Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Pipes.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.AccessControl.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Claims.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CoreCompileInputs.cache
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Globalization.Calendars.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Net.Http.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Net.Sockets.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CoreCompileInputs.cache
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+F:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll.config
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Sequoia_BE.pdb
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.exe.config
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csc.rsp
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.exe.config
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\csi.rsp
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.AppContext.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Console.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Globalization.Calendars.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Net.Http.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Net.Sockets.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.exe.config
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\vbc.rsp
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\AjaxControlToolkit.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Newtonsoft.Json.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\Sequoia_BE.pdb
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\SqlServerTypes\x64\msvcr120.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\SqlServerTypes\x86\msvcr120.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ClosedXML.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\DocumentFormat.OpenXml.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.Common.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.DataVisualization.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.Design.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.WebDesign.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.WebForms.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.SqlServer.Types.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\EnvDTE.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.VisualStudio.Shell.Interop.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.ReportViewer.WinForms.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\stdole.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.VisualStudio.OLE.Interop.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\Microsoft.MSXML.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\RdlCompile.cache
+G:\Soha Source Code\Phipines Inventory\Sequoia_BE_backup_23Jul19\Latest Solution\Sequoia_BE\Sequoia_BE\obj\Release\RdlCompile.compiled
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\SqlServerTypes\x64\msvcr120.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\SqlServerTypes\x86\msvcr120.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Sequoia_BE.dll.config
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Sequoia_BE.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Sequoia_BE.pdb
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csc.exe
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csc.exe.config
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csc.rsp
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csi.exe
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csi.exe.config
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\csi.rsp
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.AppContext.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Collections.Immutable.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Console.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Globalization.Calendars.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.IO.Compression.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.IO.FileSystem.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Net.Http.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Net.Sockets.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Reflection.Metadata.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.ValueTuple.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Xml.XPath.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\vbc.exe
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\vbc.exe.config
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\vbc.rsp
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\VBCSCompiler.exe
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\roslyn\VBCSCompiler.exe.config
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\AjaxControlToolkit.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ClosedXML.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\DocumentFormat.OpenXml.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.Common.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.DataVisualization.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.Design.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.WebDesign.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.WebForms.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.SqlServer.Types.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Newtonsoft.Json.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\System.Net.Http.Formatting.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\EnvDTE.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.VisualStudio.Shell.Interop.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.ReportViewer.WinForms.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\stdole.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.VisualStudio.OLE.Interop.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.MSXML.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\System.Net.Http.Formatting.xml
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\Sequoia_BE.csprojAssemblyReference.cache
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\RdlCompile.cache
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\RdlCompile.compiled
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\Sequoia_BE.csproj.CopyComplete
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\Sequoia_BE.dll
+G:\Soha Source Code\Midyson Inventory\Sequoia_BE\obj\Release\Sequoia_BE.pdb

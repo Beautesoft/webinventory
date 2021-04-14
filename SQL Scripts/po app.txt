@@ -1,0 +1,66 @@
+alter VIEW [dbo].[approvedOutletPOList]
+as
+select PO.po_ID as id,PO.po_no,PO.ItemSite_Code AS siteCode,PO.SUPP_Code AS supplierCode,PO.PO_REMK1 AS poRemark, PO.PO_DATE AS poDate,PO.PO_TIME AS poTime,'Approved' as poStatus,
+PO.PO_TTQTY AS poTotalQty,item_supply.SUPPLYDESC,sum(PO_Approval.POAPP_QTY) as APPQTY
+from PO
+inner join item_supply on dbo.PO.SUPP_Code = dbo.item_supply.SPLY_CODE
+inner join PO_Approval on dbo.PO.PO_NO = dbo.PO_Approval.PO_NO
+group by PO.po_ID ,PO.po_no,PO.ItemSite_Code,PO.SUPP_Code ,PO.PO_REMK1 , PO.PO_DATE ,PO.PO_TIME ,PO.PO_TTQTY ,item_supply.SUPPLYDESC
+
+GO
+
+alter VIEW [dbo].[approvedOutletPODetailList]
+as
+select PO.PO_ID as id,PO_Approval.PO_NO,PO_detail.LineNumber,PO_detail.POD_ITEMCODE,PO_detail.POD_ITEMDESC,PO_detail.BrandName,
+--PO_detail.POD_ITEMPRICE,
+PO_Approval.POAPP_ITEMPRICE as POD_ITEMPRICE,
+PO_detail.POD_DISCPER,
+PO_detail.POD_DISCAMT,PO_detail.POD_QTY,PO_Approval.POAPP_QTY
+from PO
+inner join  PO_detail on PO.PO_NO=PO_detail.PO_No
+inner join item_supply on dbo.PO.SUPP_Code = dbo.item_supply.SPLY_CODE
+inner join PO_Approval on dbo.PO.PO_NO = dbo.PO_Approval.PO_NO and PO_detail.POD_ITEMCODE=PO_Approval.POAPP_ITEMCODE
+--order by PO_Approval.PO_NO,PO_detail.LineNumber
+GO
+
+CREATE VIEW [dbo].[POPrintList]
+AS
+select po.PO_NO,po.SUPP_Code,Item_Supply.SUPPLYDESC,convert(varchar,PO.po_date,103) as po_date,PO.contactPerson,po.terms,
+PO_DETAIL.POD_QTY,stock.Item_UOM,Stock.item_code,Stock.Item_Name,PO_DETAIL.POD_PRICE,(PO_DETAIL.POD_QTY * PO_DETAIL.POD_PRICE) as TOTAL
+from po 
+inner join PO_DETAIL on po.PO_NO=PO_DETAIL.PO_No
+inner join stock on stock.item_code=PO_DETAIL.POD_ITEMCODE
+inner join Item_Supply on po.SUPP_Code=Item_Supply.SPLY_CODE
+
+GO
+alter table po
+add contactPerson nvarchar(200)
+Go
+alter table po
+add terms nvarchar(200)
+
+GO
+
+CREATE TABLE [dbo].[PO_Approval](
+	[POAPP_ID] [int] IDENTITY(1,1) NOT NULL,
+	[PO_No] [nvarchar](200) NULL,
+	[GRN_No] [nvarchar](200) NULL,
+	[ITEMSITE_CODE] [nvarchar](10) NULL,
+	[STATUS] [nvarchar](10) NULL,
+	[POAPP_ITEMCODE] [nvarchar](20) NULL,
+	[POAPP_ITEMDESC] [nvarchar](max) NULL,
+	[POAPP_ITEMPRICE] [float] NULL,
+	[POAPP_QTY] [int] NULL,
+	[POAPP_TTLQTY] [int] NULL,
+	[POAPP_AMT] [float] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[Sync_Key] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[PO_Approval] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+
+select * from PO_Approval

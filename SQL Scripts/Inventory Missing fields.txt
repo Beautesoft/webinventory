@@ -1,0 +1,369 @@
+alter table Stk_Movdoc_Hdr
+add PO_NO nvarchar(80)
+GO
+CREATE TABLE [dbo].[DO](
+	[DO_ID] [int] IDENTITY(1,1) NOT NULL,
+	[DO_NO] [nvarchar](20) NULL,
+	[ItemSite_Code] [nvarchar](10) NULL,
+	[SUPP_Code] [nvarchar](10) NULL,
+	[DO_REF] [nvarchar](20) NULL,
+	[DO_User] [nvarchar](10) NULL,
+	[DO_DATE] [smalldatetime] NULL,
+	[DO_STATUS] [nvarchar](50) NULL,
+	[DO_TTQTY] [float] NULL,
+	[DO_TTFOC] [float] NULL,
+	[DO_TTDISC] [float] NULL,
+	[DO_TTAMT] [float] NULL,
+	[DO_ATTN] [nvarchar](30) NULL,
+	[DO_REMK1] [nvarchar](50) NULL,
+	[DO_REMK2] [nvarchar](50) NULL,
+	[DO_BNAME] [nvarchar](40) NULL,
+	[DO_BADDR1] [nvarchar](30) NULL,
+	[DO_BADDR2] [nvarchar](30) NULL,
+	[DO_BADDR3] [nvarchar](30) NULL,
+	[DO_BPOSTCODE] [nvarchar](8) NULL,
+	[DO_BSTATE] [nvarchar](15) NULL,
+	[DO_BCITY] [nvarchar](10) NULL,
+	[DO_BCOUNTRY] [nvarchar](10) NULL,
+	[DO_DADDR1] [nvarchar](30) NULL,
+	[DO_DADDR2] [nvarchar](30) NULL,
+	[DO_DADDR3] [nvarchar](30) NULL,
+	[DO_DPOSTCODE] [nvarchar](8) NULL,
+	[DO_DSTATE] [nvarchar](15) NULL,
+	[DO_DCITY] [nvarchar](15) NULL,
+	[DO_DCOUNTRY] [nvarchar](20) NULL,
+	[DO_CANCELQTY] [float] NULL,
+	[DO_RECSTATUS] [nvarchar](10) NULL,
+	[DO_RECEXPECT] [smalldatetime] NULL,
+	[DO_RECTTL] [float] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[DO_TIME] [smalldatetime] NULL,
+	[PO_NO] [nvarchar](40) NULL,
+	[Sync_Key] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[DO] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+ALTER TABLE [dbo].[DO] ADD  DEFAULT (getdate()) FOR [DO_TIME]
+GO
+CREATE TABLE [dbo].[DO_DETAIL](
+	[DO_ID] [int] IDENTITY(1,1) NOT NULL,
+	[ITEMSITE_CODE] [nvarchar](10) NULL,
+	[STATUS] [nvarchar](10) NULL,
+	[DOD_ITEMCODE] [nvarchar](20) NULL,
+	[DOD_ITEMDESC] [nvarchar](max) NULL,
+	[DOD_ITEMPRICE] [float] NULL,
+	[DOD_QTY] [int] NULL,
+	[DOD_FOCQTY] [int] NULL,
+	[DOD_TTLQTY] [int] NULL,
+	[DOD_PRICE] [float] NULL,
+	[DOD_DISCPER] [float] NULL,
+	[DOD_DISCAMT] [float] NULL,
+	[DOD_AMT] [float] NULL,
+	[DOD_RECQTY] [int] NULL,
+	[DOD_CANCELQTY] [int] NULL,
+	[DOD_OUTQTY] [int] NULL,
+	[DOD_DATE] [smalldatetime] NULL,
+	[DOD_TIME] [smalldatetime] NULL,
+	[Sync_GUID] [uniqueidentifier] NOT NULL,
+	[Sync_ClientIndex] [int] NULL,
+	[Sync_LstUpd] [datetime] NULL,
+	[Sync_ClientIndexString] [nvarchar](max) NULL,
+	[BrandCode] [nvarchar](15) NULL,
+	[BrandName] [nvarchar](30) NULL,
+	[LineNumber] [int] NOT NULL,
+	[DO_No] [nvarchar](20) NULL,
+	[PostStatus] [bit] NULL,
+	[Sync_Key] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT (newid()) FOR [Sync_GUID]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT ('') FOR [BrandCode]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT ('') FOR [BrandName]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT ((0)) FOR [LineNumber]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT ('') FOR [DO_No]
+GO
+
+ALTER TABLE [dbo].[DO_DETAIL] ADD  DEFAULT ((0)) FOR [PostStatus]
+GO
+
+CREATE VIEW [dbo].[PODetailsList]
+AS
+SELECT PO_detail.PO_ID as poId,PO_detail.PO_No as poNo,PO_detail.LineNumber,PO_detail.POD_ITEMCODE,PO_detail.POD_ITEMDESC,PO_detail.POD_ITEMPRICE,
+PO_detail.POD_QTY,(PO_detail.POD_ITEMPRICE * PO_detail.POD_QTY) as POD_PRICE,
+stock.Item_UOM as docUom,item_UOM.UOM_Desc as DOCUOMDesc,stock.item_Brand as itmBrand,item_BRAND.itm_desc as brandname,stock.Item_Range as itmRange,
+item_range.itm_desc as itmRangeDesc from   dbo.PO_detail
+LEFT OUTER JOIN dbo.stock  ON dbo.PO_detail.POD_ITEMCODE = dbo.stock.item_code
+LEFT OUTER JOIN dbo.item_UOM  ON dbo.item_UOM.UOM_Code = dbo.stock.Item_UOM
+LEFT OUTER JOIN dbo.item_BRAND  ON dbo.item_BRAND.itm_Code = dbo.stock.item_Brand
+LEFT OUTER JOIN dbo.item_range  ON dbo.item_range.itm_Code = dbo.stock.Item_Range
+
+GO
+
+alter table [PODetailsList]
+add LineNumber int
+GO
+alter table [PODetailsList]
+add PO_No nvarchar(40)
+GO
+alter table [PODetailsList]
+add PostStatus bit
+GO
+alter table req
+	add supplierName nvarchar(100)
+GO
+
+CREATE VIEW [dbo].[approvedDOList]
+AS
+SELECT        TOP (100) PERCENT dbo.DO.DO_NO AS POno, dbo.REQ.REQ_ID, dbo.REQ.REQ_NO AS poNumber, dbo.REQ.ItemSite_Code AS siteCode, dbo.REQ.SUPP_Code AS supplierCode, dbo.REQ.REQ_REMK1 AS poRemark, 
+                         dbo.REQ.REQ_DATE AS poDate, dbo.REQ.REQ_TIME AS poTime, (CASE WHEN isnull(DO.PO_NO, '') = '' THEN REQ.REQ_status ELSE DO.DO_STATUS END) AS poStatus, dbo.REQ.REQ_TTQTY AS poTotalQty, 
+                         ISNULL(dbo.DO.DO_TTQTY, 0) AS APPQTY, dbo.REQ.REQ_BPOSTCODE AS postCode, dbo.REQ.REQ_ATTN AS supplier
+FROM            dbo.REQ LEFT OUTER JOIN
+                         dbo.DO ON dbo.REQ.REQ_NO = dbo.DO.PO_NO
+WHERE        (dbo.REQ.REQ_STATUS <> '')
+ORDER BY poDate DESC
+GO
+CREATE VIEW [dbo].[approvedDOGRNList]
+AS
+SELECT        TOP (100) PERCENT dbo.Stk_Movdoc_Hdr.DOC_NO AS GRNNo, dbo.Stk_Movdoc_Hdr.PO_ID, 
+dbo.DO.DO_NO AS doNumber, dbo.DO.ItemSite_Code AS siteCode, 
+dbo.DO.SUPP_Code AS supplierCode,dbo.DO.DO_REMK1 AS doRemark, dbo.DO.DO_DATE AS doDate, dbo.DO.DO_TIME AS doTime ,
+(CASE WHEN isnull(Stk_Movdoc_Hdr.PO_NO, '') = '' THEN DO.DO_STATUS ELSE 'Delivered' END)AS doStatus, 
+dbo.DO.DO_TTQTY AS doTotalQty, ISNULL(dbo.Stk_Movdoc_Hdr.DOC_QTY, 0) AS APPQTY, dbo.DO.DO_BPOSTCODE AS postCode, dbo.DO.DO_ATTN AS supplier
+FROM            dbo.DO 
+LEFT OUTER JOIN dbo.Stk_Movdoc_Hdr ON dbo.DO.DO_NO = dbo.Stk_Movdoc_Hdr.PO_NO
+WHERE        (dbo.DO.DO_STATUS='Approved')
+ORDER BY DOC_DATE DESC
+GO
+
+CREATE VIEW [dbo].[approvedGRNList]
+AS
+SELECT        TOP (100) PERCENT dbo.Stk_Movdoc_Hdr.DOC_NO AS GRNNo, dbo.Stk_Movdoc_Hdr.PO_ID, 
+dbo.PO.PO_NO AS poNumber, dbo.PO.ItemSite_Code AS siteCode, 
+dbo.PO.SUPP_Code AS supplierCode,dbo.PO.PO_REMK1 AS poRemark, dbo.PO.PO_DATE AS poDate, dbo.PO.PO_TIME AS poTime ,
+(CASE WHEN isnull(Stk_Movdoc_Hdr.PO_NO, '') = '' THEN PO.PO_STATUS ELSE 'Approved' END)AS poStatus, 
+dbo.PO.PO_TTQTY AS poTotalQty, ISNULL(dbo.Stk_Movdoc_Hdr.DOC_QTY, 0) AS APPQTY, dbo.PO.PO_BPOSTCODE AS postCode, dbo.PO.PO_ATTN AS supplier
+FROM            dbo.PO 
+LEFT OUTER JOIN dbo.Stk_Movdoc_Hdr ON dbo.PO.PO_NO = dbo.Stk_Movdoc_Hdr.PO_NO
+WHERE        (dbo.PO.PO_STATUS <> '')
+ORDER BY DOC_DATE DESC
+
+GO
+alter table item_supply
+	add numberOfTotalPOs int
+	Go
+	alter table item_supply
+	add numberOfOpenPOs int
+	Go
+	alter table item_supply
+	add accountNumber nvarchar(100)
+GO
+alter table employee
+	add notificationSetting bit
+	GO
+	alter table employee
+	add Attendance bit
+	GO
+	alter table employee
+	add Treat_Exp_Day_Limit int
+GO
+alter table employee
+	add FCMToken nvarchar(max)
+GO
+alter table employee
+	add skillset nvarchar(80)
+GO
+alter table employee
+	add employeeAppType nvarchar(80)
+GO
+alter table employee
+	add Leave_taken int
+	GO
+	alter table employee
+	add Leave_bal int
+GO
+alter table item_sitelist
+	add Ratings nvarchar(80)
+	GO
+	alter table item_sitelist
+	add pic_Path nvarchar(max)
+	Go
+	alter table item_sitelist
+	add QRCode nvarchar(80)
+	Go
+	alter table item_sitelist
+	add siteDbConnectionUrl nvarchar(200)
+
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','GRN','Goods Receive Note','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','TFS','Transfer To Other Store','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','RGRN','Goods Return Note','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','AJS','Adjustment Stock','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','POR','PO REQUISITE','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','PO','PO','2008.05.07','AW01',null)
+GO
+insert into control_no(control_no,control_prefix,control_description,CONTROLDATE,Site_Code,Mac_Code)values('110001','POIV','Outlet PO Invoice','2008.05.07','AW01',null)
+
+Go
+alter table stk_MovDoc_Dtl
+add DOCUOMDesc nvarchar(100)
+GO
+alter table stk_MovDoc_Dtl
+add itmBrandDesc nvarchar(100)
+Go
+alter table stk_MovDoc_Dtl
+add itmRangeDesc nvarchar(100)
+GO
+
+--exec USP_STOCK_BALANCE '1','%','%','%','14/11/2019'
+CREATE PROC USP_STOCK_BALANCE
+@ITEM_DIV NVARCHAR(40)	,
+@Item_Code NVARCHAR(40)	,
+@item_Brand NVARCHAR(40),
+@Item_Range NVARCHAR(40),
+@date NVARCHAR(40)		
+AS
+
+DECLARE @COUNT INT
+SET @COUNT=(select COUNT(*) from tblStockBalanceDay where convert(varchar,SA_DATE,103)=convert(varchar,@date,103))
+IF @COUNT=0
+BEGIN
+SELECT * INTO #A1
+FROM (
+		
+		--SELECT B.Item_no, item_link.link_code as [Item Code],B.Item_Name as Item_Desc,
+		--C.itm_desc AS BRAND,D.itm_desc AS RANGE,E.UOM_Desc AS UOM,
+		--ItemSite_Code,A.ONHAND_QTY as Amount 
+		--FROM tblStockBalanceDay A
+		--INNER JOIN	Stock		B	ON A.ITEM_CODE=B.item_code
+		--inner join item_link on item_link.ITEM_CODE = B.item_code + '0000' 
+		--LEFT JOIN	Item_Brand	C	ON B.item_Brand=C.itm_code
+		--LEFT JOIN	Item_Range	D	ON B.Item_Range=D.itm_code 
+		--LEFT JOIN	Item_UOM    E	ON A.UOM=E.UOM_Code
+		--where B.item_isactive = 1 and item_link.Itm_IsActive = 1 AND
+		--A.SA_DATE=(SELECT MAX(SA_DATE) FROM tblStockBalanceDay WHERE convert(varchar,SA_DATE,103)<convert(varchar,@date,103)) AND B.Item_Div = @ITEM_DIV AND B.Item_Code LIKE @Item_Code AND B.item_Brand LIKE @item_Brand AND B.Item_Range LIKE @Item_Range
+
+		SELECT '' as Item_no,Stock.ITEM_CODE as [Item Code],Stock.ITEM_NAME as Item_Desc,Item_Brand.itm_desc AS BRAND,
+		Item_Range.itm_desc AS RANGE,Item_UOM.UOM_Desc AS UOM,
+		ITEM_SITELIST.ItemSite_Code ,isnull(tblStockBalanceDay.ONHAND_QTY,0) as Amount  FROM Stock
+		LEFT JOIN	Item_Brand	ON Stock.item_Brand=Item_Brand.itm_code 
+		LEFT JOIN	Item_Range	ON Stock.Item_Range=Item_Range.itm_code 
+		LEFT JOIN	Item_UOM    ON Stock.Item_UOM=Item_UOM.UOM_Code
+		LEFT JOIN	ITEM_SITELIST  ON ITEM_SITELIST.ItemSite_Isactive=1
+		LEFT JOIN	tblStockBalanceDay  ON tblStockBalanceDay.ITEM_CODE=Stock.item_code and 
+		tblStockBalanceDay.ItemSite_Code=ITEM_SITELIST.ItemSite_Code and 
+		tblStockBalanceDay.SA_DATE=(SELECT MAX(SA_DATE) FROM tblStockBalanceDay WHERE convert(varchar,SA_DATE,103)<convert(varchar,@date,103))
+		where Stock.item_isactive = 1 and Stock.Item_Div = @ITEM_DIV AND Stock.Item_Code LIKE @Item_Code AND 
+		Stock.item_Brand LIKE @item_Brand AND Stock.Item_Range LIKE @Item_Range
+
+		
+) as s
+PIVOT
+(
+    SUM(Amount)
+    FOR ItemSite_Code IN (AWHQ,AW01, AW02, AW03, AW04, AW05,AW06, AW07, AW08, AW09, AW10,AW11)
+)AS pvt
+
+SELECT Item_no,[Item Code],Item_Desc,BRAND,RANGE,UOM,
+	ISNULL(AWHQ,0) as AWHQ, ISNULL(AW01,0) as AW01, ISNULL(AW02,0) as AW02, ISNULL(AW03,0) as AW03, ISNULL(AW04,0) as AW04, ISNULL(AW05,0) as AW05, 
+	ISNULL(AW06,0) as AW06, ISNULL(AW07,0) as AW07, ISNULL(AW08,0) as AW08,ISNULL(AW09,0) as AW09,ISNULL(AW10,0) as AW10,ISNULL(AW11,0) as AW11,
+	ISNULL(AWHQ,0) + ISNULL(AW01,0) + ISNULL(AW02,0) + ISNULL(AW03,0) + ISNULL(AW04,0) + ISNULL(AW05,0) + ISNULL(AW06,0) + ISNULL(AW07,0) + ISNULL(AW08,0) +
+	ISNULL(AW09,0) +ISNULL(AW10,0) +ISNULL(AW11,0) 
+	AS BALANCE
+	FROM  #A1 ORDER BY Item_no ASC
+
+END
+ELSE
+BEGIN
+SELECT * INTO #A2
+FROM (
+		
+		--SELECT B.Item_no, item_link.link_code as [Item Code],B.Item_Name as Item_Desc,
+		--C.itm_desc AS BRAND,D.itm_desc AS RANGE,E.UOM_Desc AS UOM,
+		--ItemSite_Code,A.ONHAND_QTY as Amount 
+		--FROM tblStockBalanceDay A
+		--INNER JOIN	Stock		B	ON A.ITEM_CODE=B.item_code
+		--inner join item_link on item_link.ITEM_CODE = B.item_code + '0000' 
+		--LEFT JOIN	Item_Brand	C	ON B.item_Brand=C.itm_code
+		--LEFT JOIN	Item_Range	D	ON B.Item_Range=D.itm_code 
+		--LEFT JOIN	Item_UOM    E	ON A.UOM=E.UOM_Code
+		--where B.item_isactive = 1 and item_link.Itm_IsActive = 1 AND
+		--convert(varchar,A.SA_DATE,103)=convert(varchar,@date,103) AND B.Item_Div = @ITEM_DIV AND B.Item_Code LIKE @Item_Code AND B.item_Brand LIKE @item_Brand AND B.Item_Range LIKE @Item_Range
+
+		SELECT '' as Item_no,Stock.ITEM_CODE as [Item Code],Stock.ITEM_NAME as Item_Desc,Item_Brand.itm_desc AS BRAND,
+		Item_Range.itm_desc AS RANGE,Item_UOM.UOM_Desc AS UOM,
+		ITEM_SITELIST.ItemSite_Code ,isnull(tblStockBalanceDay.ONHAND_QTY,0) as Amount  FROM Stock
+		LEFT JOIN	Item_Brand	ON Stock.item_Brand=Item_Brand.itm_code 
+		LEFT JOIN	Item_Range	ON Stock.Item_Range=Item_Range.itm_code 
+		LEFT JOIN	Item_UOM    ON Stock.Item_UOM=Item_UOM.UOM_Code
+		LEFT JOIN	ITEM_SITELIST  ON ITEM_SITELIST.ItemSite_Isactive=1
+		LEFT JOIN	tblStockBalanceDay  ON tblStockBalanceDay.ITEM_CODE=Stock.item_code and 
+		tblStockBalanceDay.ItemSite_Code=ITEM_SITELIST.ItemSite_Code and 
+		convert(varchar,tblStockBalanceDay.SA_DATE,103)=convert(varchar,@date,103)
+		where Stock.item_isactive = 1 and Stock.Item_Div = @ITEM_DIV AND Stock.Item_Code LIKE @Item_Code AND 
+		Stock.item_Brand LIKE @item_Brand AND Stock.Item_Range LIKE @Item_Range
+
+		
+) as s
+PIVOT
+(
+    SUM(Amount)
+    FOR ItemSite_Code IN (AWHQ,AW01, AW02, AW03, AW04, AW05,AW06, AW07, AW08, AW09, AW10,AW11)
+)AS pvt
+
+
+	SELECT Item_no,[Item Code],Item_Desc,BRAND,RANGE,UOM,
+	ISNULL(AWHQ,0) as AWHQ, ISNULL(AW01,0) as AW01, ISNULL(AW02,0) as AW02, ISNULL(AW03,0) as AW03, ISNULL(AW04,0) as AW04, ISNULL(AW05,0) as AW05, 
+	ISNULL(AW06,0) as AW06, ISNULL(AW07,0) as AW07, ISNULL(AW08,0) as AW08,ISNULL(AW09,0) as AW09,ISNULL(AW10,0) as AW10,ISNULL(AW11,0) as AW11,
+	ISNULL(AWHQ,0) + ISNULL(AW01,0) + ISNULL(AW02,0) + ISNULL(AW03,0) + ISNULL(AW04,0) + ISNULL(AW05,0) + ISNULL(AW06,0) + ISNULL(AW07,0) + ISNULL(AW08,0) +
+	ISNULL(AW09,0) +ISNULL(AW10,0) +ISNULL(AW11,0) 
+	AS BALANCE
+	FROM  #A2 ORDER BY Item_no ASC
+
+
+END
+
+
+GO
+
+alter table stock
+add isTnc bit,T1_Tax_Code nvarchar(40),T2_Tax_Code nvarchar(40),IS_ALLOW_FOC bit,Vilidity_From_Date datetime,Vilidity_To_date datetime,
+Vilidity_From_Time datetime,
+Vilidity_To_Time datetime,
+Prepaid_Disc_Type nvarchar(40),
+Prepaid_Disc_Percent float,
+Srv_Duration float,
+Voucher_Template_Name nvarchar(100),
+IS_HAVE_TAX bit,
+AutoProportion bit
+
+GO
+
+CREATE TABLE [dbo].[tblStockBalanceDay](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[SA_DATE] [datetime] NULL,
+	[ITEM_CODE] [nvarchar](40) NULL,
+	[UOM] [nvarchar](40) NULL,
+	[ItemSite_Code] [nvarchar](40) NULL,
+	[ONHAND_QTY] [float] NULL,
+	[Time] [datetime] NULL
+) ON [PRIMARY]

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Picking List</title>
+	<meta charset="utf-8" />
+    <style type="text/css" media="print">
+        @page {
+            size: landscape;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper" id="id_Scheduler">
+        <section class="invoice" style="font-size:12px;">           
+            <div class="row invoice-info">
+                <div class="col-sm-4 invoice-col">
+                    <address>
+                        <strong>PO No: </strong><label id="lblpoNo_PickingListPrint">PO NO</label><br>
+                        <strong>PO Date: </strong><label id="lblpoDate_PickingListPrint" style="font-weight: 100; max-width:250px">PO DATE</label><br>
+                        <strong>Supplier : </strong><label id="lblsupplier_PickingListPrint" style="font-weight: 100;">Supplier</label><br>
+                        <strong>Store Code: </strong><label id="lblstoreNo_PickingListPrint" style="font-weight: 100;">Store Code</label><br>
+                    </address>
+                </div>               
+            </div>
+            <!-- /.row -->
+            <!-- Table row -->
+            <div class="row">
+                <div class="col-xs-12 table-striped">
+                    <table class="table table-striped" style="width: 100%; font-size:12px" id="PickingPrint">
+                        <thead>
+                            <tr>
+                                <th style="width: 3%;text-align:center">S.No</th>
+                                <th style="width: 5%;text-align:center">Item Code</th>
+                                <th style="width: 5%;text-align:center">Description</th>
+                                <th style="width: 5%;text-align:center">Brand</th>
+                                <th style="width: 5%;text-align:center">Qty</th>
+                                <th style="width: 4%;text-align:center">M Qty</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <!-- /.col -->
+            </div>
+           
+        </section>
+        <!-- /.content -->
+
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script>
+
+        $(function () {
+            setTimeout(function () {
+
+                
+                window.print();
+
+            }, 800);
+        }
+        );
+
+
+
+
+    </script>
+</body>
+</html>
